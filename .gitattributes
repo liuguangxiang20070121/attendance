@@ -1,0 +1,5 @@
+# Force LF line endings so entrypoint.sh runs correctly in the Linux Docker image.
+*.sh text eol=lf
+Dockerfile text eol=lf
+# The war file is a zip archive; treat it as binary.
+*.war binary
